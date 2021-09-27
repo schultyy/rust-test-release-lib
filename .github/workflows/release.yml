@@ -18,8 +18,8 @@ jobs:
             artifact_name: test-release-lib
             asset_name: test-release-lib-macos-amd64
           - os: windows-latest
-            artifact_name: test-release-lib
-            asset_name: test-release-lib-macos-amd64
+            artifact_name: test-release-lib.exe
+            asset_name: test-release-lib-windows-amd64.exe
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
